@@ -62,16 +62,24 @@ img {
 }
 
 .navbar .logo {
-    /* Estilos para el enlace del logo */
+    /* Usamos Flexbox para alinear la imagen y el texto horizontalmente */
+    display: flex;
+    align-items: center; /* Centra verticalmente la imagen y el texto */
+
+    /* Estilos para el texto (que ahora también es el enlace) */
+    color: white;
     text-decoration: none;
-    padding: 5px 0; /* Añadimos padding para centrarlo verticalmente */
+    font-family: 'Oswald', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
 }
 
 .navbar .logo img {
     /* Estilos para la IMAGEN del logo */
-    height: 40px; /* <-- ¡Este es el tamaño! Cámbialo si lo quieres más grande o pequeño */
+    height: 40px; /* Tamaño del logo */
     width: auto;
-    vertical-align: middle; /* Ayuda a que se alinee bien con el menú */
+    margin-right: 10px; /* <-- Este es el espacio entre el logo y el texto */
 }
 
 .navbar nav ul {
