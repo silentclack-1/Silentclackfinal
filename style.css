@@ -62,10 +62,16 @@ img {
 }
 
 .navbar .logo {
-    color: white;
+    /* Estilos para el enlace del logo */
     text-decoration: none;
-    font-size: 24px;
-    font-weight: 700;
+    padding: 5px 0; /* Añadimos padding para centrarlo verticalmente */
+}
+
+.navbar .logo img {
+    /* Estilos para la IMAGEN del logo */
+    height: 40px; /* <-- ¡Este es el tamaño! Cámbialo si lo quieres más grande o pequeño */
+    width: auto;
+    vertical-align: middle; /* Ayuda a que se alinee bien con el menú */
 }
 
 .navbar nav ul {
